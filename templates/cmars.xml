@@ -1,0 +1,7 @@
+<templateSet group="cmars">
+  <template name="!material" value="import 'package:flutter/material.dart';" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+</templateSet>
