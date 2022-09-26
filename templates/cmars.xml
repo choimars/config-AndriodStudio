@@ -4,4 +4,9 @@
       <option name="DART" value="true" />
     </context>
   </template>
+  <template name="!widget" value="  @override&#10;  Widget build(BuildContext context) {}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
 </templateSet>
