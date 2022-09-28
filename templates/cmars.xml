@@ -14,12 +14,12 @@
       <option name="DART" value="true" />
     </context>
   </template>
-  <template name="!pushRoute" value="     Navigator.push(&#10;                          context,&#10;                          MaterialPageRoute(&#10;                              builder: (context) =&gt; [PAGE]()))" toReformat="false" toShortenFQNames="true">
+  <template name="!pushRoute" value="     Navigator.push(&#10;                          context,&#10;                          MaterialPageRoute(&#10;                              builder: (context) =&gt; [PAGE]()))" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="DART" value="true" />
     </context>
   </template>
-  <template name="!scaffoldSnackbar" value="          ScaffoldMessenger.of(context).showSnackBar(SnackBar(&#10;            content: Text('좋아요가 추가 되었습니다.'),&#10;            action: SnackBarAction(&#10;              label: 'Undo',&#10;              onPressed: () {&#10;                [Navigator.push(context,&#10;                    MaterialPageRoute(builder: (context) =&gt; ThirdPage()));]&#10;              },&#10;            ),&#10;          ));" toReformat="false" toShortenFQNames="true">
+  <template name="!scaffoldSnackbar" value="          ScaffoldMessenger.of(context).showSnackBar(SnackBar(&#10;            content: Text('좋아요가 추가 되었습니다.'),&#10;            action: SnackBarAction(&#10;              label: 'Undo',&#10;              onPressed: () {&#10;                [Navigator.push(context,&#10;                    MaterialPageRoute(builder: (context) =&gt; ThirdPage()));]&#10;              },&#10;            ),&#10;          ));" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="DART" value="true" />
     </context>
