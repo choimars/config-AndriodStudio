@@ -19,7 +19,7 @@
       <option name="DART" value="true" />
     </context>
   </template>
-  <template name="!scaffoldSanckbar" value="          ScaffoldMessenger.of(context).showSnackBar(&#10;              SnackBar(content: Text('Like a new Snack bar!'),&#10;                duration: Duration(seconds: 5),&#10;              )&#10;          );" toReformat="false" toShortenFQNames="true">
+  <template name="!scaffoldSnackbar" value="          ScaffoldMessenger.of(context).showSnackBar(SnackBar(&#10;            content: Text('좋아요가 추가 되었습니다.'),&#10;            action: SnackBarAction(&#10;              label: 'Undo',&#10;              onPressed: () {&#10;                [Navigator.push(context,&#10;                    MaterialPageRoute(builder: (context) =&gt; ThirdPage()));]&#10;              },&#10;            ),&#10;          ));" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="DART" value="true" />
     </context>
