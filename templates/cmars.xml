@@ -19,4 +19,9 @@
       <option name="DART" value="true" />
     </context>
   </template>
+  <template name="!scaffoldSanckbar" value="          ScaffoldMessenger.of(context).showSnackBar(&#10;              SnackBar(content: Text('Like a new Snack bar!'),&#10;                duration: Duration(seconds: 5),&#10;              )&#10;          );" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
 </templateSet>
