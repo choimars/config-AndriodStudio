@@ -4,12 +4,12 @@
       <option name="DART" value="true" />
     </context>
   </template>
-  <template name="!widget" value="  @override&#10;  Widget build(BuildContext context) {}" toReformat="false" toShortenFQNames="true">
+  <template name="!widget" value="  @override&#10;  Widget build(BuildContext context) {}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="DART" value="true" />
     </context>
   </template>
-  <template name="!googlefont" value="import 'package:google_fonts/google_fonts.dart';" toReformat="false" toShortenFQNames="true">
+  <template name="!googlefont" value="import 'package:google_fonts/google_fonts.dart';" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="DART" value="true" />
     </context>
