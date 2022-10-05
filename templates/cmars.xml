@@ -24,4 +24,14 @@
       <option name="DART" value="true" />
     </context>
   </template>
+  <template name="!math" value="import 'dart:math';" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="!fluttertoast" value="import 'package:fluttertoast/fluttertoast.dart';" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
 </templateSet>
