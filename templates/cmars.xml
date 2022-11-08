@@ -1,0 +1,55 @@
+<templateSet group="cmars">
+  <template name="!material" value="import 'package:flutter/material.dart';" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="!widget" value="  @override&#10;  Widget build(BuildContext context) {}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="!googlefont" value="import 'package:google_fonts/google_fonts.dart';" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="!pushRoute" value="     Navigator.push(&#10;                          context,&#10;                          MaterialPageRoute(&#10;                              builder: (context) =&gt; [PAGE]()))" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="!scaffoldSnackbar" value="          ScaffoldMessenger.of(context).showSnackBar(SnackBar(&#10;            content: Text('좋아요가 추가 되었습니다.'),&#10;            action: SnackBarAction(&#10;              label: 'Undo',&#10;              onPressed: () {&#10;                [Navigator.push(context,&#10;                    MaterialPageRoute(builder: (context) =&gt; ThirdPage()));]&#10;              },&#10;            ),&#10;          ));" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="!math" value="import 'dart:math';" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="!fluttertoast" value="import 'package:fluttertoast/fluttertoast.dart';" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="!asset.fonts" value="  fonts:&#10;    - family: Dongle&#10;      fonts:&#10;        - asset: assets/fonts/Dongle/Dongle-Regular.ttf&#10;        - asset: assets/fonts/Dongle/Dongle-Light.ttf&#10;          weight: 300&#10;        - asset: assets/fonts/Dongle/Dongle-Bold.ttf&#10;          weight: 700&#10;    - family: CuteFont&#10;      fonts:&#10;        - asset: assets/fonts/Cute_Font/CuteFont-Regular.ttf&#10;    - family: NotoSans&#10;      fonts:&#10;        - asset: assets/fonts/Noto_Sans_KR/NotoSansKR-Regular.otf&#10;        - asset: assets/fonts/Noto_Sans_KR/NotoSansKR-Medium.otf&#10;          weight: 500&#10;        - asset: assets/fonts/Noto_Sans_KR/NotoSansKR-Bold.otf&#10;          weight: 700&#10;        - asset: assets/fonts/Noto_Sans_KR/NotoSansKR-Black.otf&#10;          weight: 900" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="CMAKE" value="false" />
+      <option name="DART" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JSON" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_ATTRIBUTE" value="false" />
+      <option name="c" value="false" />
+      <option name="cpp" value="false" />
+      <option name="objc" value="false" />
+    </context>
+  </template>
+</templateSet>
