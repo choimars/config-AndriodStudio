@@ -1,0 +1,7 @@
+<templateSet group="Dart">
+  <template name="!main" value="import 'package:flutter/material.dart';&#10;&#10;void main() {&#10;  runApp(const MyApp());&#10;}" description="Iterate elements of array" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+</templateSet>
