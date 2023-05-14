@@ -1,7 +1,5 @@
 <application>
   <component name="github-copilot">
-    <disabledLanguages>
-      <option value="Dart" />
-    </disabledLanguages>
+    <option name="enableCompletions" value="false" />
   </component>
 </application>
